@@ -1,19 +1,12 @@
 import './App.css'
+import TextToSpeech from './components/TextToSpeech';
 
 function App() {
-
-  const handleGenerateSpeech = () => {
-    
-  }
-
-  return (
+  return(
     <>
-      <div>
-        <input type="text" />
-        <button onClick={handleGenerateSpeech}>Generate Speech</button>
-      </div>
+      <TextToSpeech/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
